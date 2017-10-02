@@ -1,0 +1,41 @@
+[v-cloak]{
+	display: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font:;
+}
+#main{
+	height: 300px;
+	position: relative;
+	padding-top: 150px;
+}
+p{
+	font-size: 22px;
+	font-weight: bold;
+	color: #353866;
+	background-color: yellow;
+}
+p:before{
+	content: "\270E";
+}
+
+.tooltip{
+	width: 290px;
+	padding: 10px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top:80px;
+}
+
+.tooltip input{
+	border:none;
+	width: 100%;
+	
+
+}
